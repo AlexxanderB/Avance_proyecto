@@ -5,20 +5,13 @@ Matriz::Matriz(int filas, int columnas){
 	this->filas=filas;
 	this->columnas=columnas;
 	
-	for(int filas= 0;filas<m;filas++){
-		for(int columnas = 0;columnas <m;columnas++){
-			cout<<"Digite un numero ["<<filas<<"]["<<columnas<<"]"<<endl;
-			cin>>M[filas][columnas];	
-		}
-	}
-	
 }
 
 void Matriz::RellenarMatriz(){
-	for(int filas= 0;filas<m;filas++){
-		for(int columnas = 0;columnas <m;columnas++){
-			cout<<"Digite un numero ["<<filas<<"]["<<columnas<<"]"<<endl;
-			cin>>M[filas][columnas];	
+	for(int i= 0;i<filas;i++){
+		for(int j= 0;j<columnas;j++){
+			cout<<"Digite un numero ["<<i<<"]["<<j<<"]"<<endl;
+			cin>>M[i][j];	
 		}
 	}
 }

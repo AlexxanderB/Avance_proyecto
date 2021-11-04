@@ -3,7 +3,7 @@
 int main (){
 	
 	int Selec_Fun, opcion;
-	int m;
+	int filas, columnas;
 	
 	cout<<"\t\tMath\n"<<endl;
 	cout<<"Tu Calculadora de Matrices Online\n"<<endl;
@@ -21,11 +21,14 @@ int main (){
 			switch(opcion){
 				case 1:
 					cout<<"Suma de dos matrices"<<endl;
-					cout<<"Ingrese la dimencion de su matriz"<<endl;
-					cin>>m;
-					cout<<"Matriz de "<<m<< " x "<<m<<endl;
+					cout<<"Recuerde ingresar los datos de una matriz cuadrada"<<endl;
+					cout<<"Ingrese el numero de filas"<<endl;
+					cin>>filas;
+					cout<<"Ingrese el numero de columnas"<<endl;
+					cin>>columnas;
+					cout<<"Matriz de "<<filas<< " x "<<columnas<<endl;
 					cout<<"Ingrese los Datos de su matriz A"<<endl;
-					Matriz matriz1(m,m);
+					Matriz matriz1(filas,columnas);
 					matriz1.RellenarMatriz();
 					
 	}
