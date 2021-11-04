@@ -10,7 +10,7 @@ Matriz::Matriz(int filas, int columnas){
 void Matriz::RellenarMatriz(){
 	for(int i= 0;i<filas;i++){
 		for(int j= 0;j<columnas;j++){
-			cout<<"Digite un numero ["<<i<<"]["<<j<<"]"<<endl;
+			cout<<"Digite un numero para la posicion ["<<i<<"]["<<j<<"]"<<endl;
 			cin>>M[i][j];	
 		}
 	}

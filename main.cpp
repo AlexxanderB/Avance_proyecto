@@ -29,9 +29,8 @@ int main (){
 					cout<<"Matriz de "<<filas<< " x "<<columnas<<endl;
 					cout<<"Ingrese los Datos de su matriz A"<<endl;
 					Matriz matriz1(filas,columnas);
-					matriz1.RellenarMatriz();
-					
-	}
+					matriz1.RellenarMatriz();			
+	       }
 		break;
 		case 2:
 			cout<<"Solucion de Sistemas por Gauss Jordan"<<endl;
@@ -39,16 +38,6 @@ int main (){
 		default:
 			cout<<"Funcionalidad no valida"<<endl;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	return 0;
 }
 

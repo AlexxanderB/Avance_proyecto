@@ -16,10 +16,8 @@ class Matriz{
 		
 	private:
 		int filas, columnas;
-		int m; 
-		int M[3][3];
-	
-	
+		int M[][];
 };
+
 
 
