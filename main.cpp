@@ -25,6 +25,9 @@ int main (){
 					cin>>m;
 					cout<<"Matriz de "<<m<< " x "<<m<<endl;
 					cout<<"Ingrese los Datos de su matriz A"<<endl;
+					Matriz matriz1(m,m);
+					matriz1.RellenarMatriz();
+					
 	}
 		break;
 		case 2:
